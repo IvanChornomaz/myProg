@@ -1,0 +1,11 @@
+.header
+  .header__logo
+    <span>B R</span>  A r c h i t e c t s
+
+  -var menu = ['Projects','About','Contact'];
+.wrapper
+  .header__menu
+    ul
+      each item,index in menu
+        li(class=index==0?'is-active': '')
+          a(href='#')=item

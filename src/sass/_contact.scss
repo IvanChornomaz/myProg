@@ -1,0 +1,38 @@
+.contact{
+  text-align: center;
+  margin: 5px;
+}
+.contact__title{
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.contact__info{
+  margin-bottom: 10px;
+}
+.contact__name{
+  margin-bottom: 10px;
+}
+.contact__mail{
+  margin-bottom: 10px;
+}
+.contact__subject{
+  margin-bottom: 10px;
+}
+.contact__comment{
+  margin-bottom: 10px;
+}
+.contact__send button{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0px;
+}
+.contact__send button:hover{
+  background: #000;
+  color: #fff;
+  transition: 0.7s;
+}
+.contact__img img{
+  width: 100%;
+  margin-bottom: 15px;
+}

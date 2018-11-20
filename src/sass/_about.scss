@@ -1,0 +1,38 @@
+.about__title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.about__info{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about__img img{
+  width: 100%;
+  padding: 5px;
+}
+.about__name{
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about__profession{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about__skills{
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 5px;
+}
+.about__contact{
+  text-align: center;
+}
+.about__contact button{
+  padding: 10px 70px 10px 70px;
+  margin-bottom: 25px;
+  border: 0px;
+}
+.about__contact button:hover{
+  background: #d9baff;
+  transition: 0.7s;
+}

@@ -1,0 +1,48 @@
+.wrapper
+  .title
+    |Projects
+  hr
+-
+  var article = [
+    {
+      title : 'Summer House',
+      img : src="https://www.w3schools.com/w3images/house5.jpg",
+    },
+    {
+      title : 'Brick House',
+      img : src="https://www.w3schools.com/w3images/house2.jpg",
+    },
+    {
+      title : 'Renovated',
+      img : src="https://www.w3schools.com/w3images/house3.jpg",
+    },
+    {
+      title : 'Barn House',
+      img : src="https://www.w3schools.com/w3images/house4.jpg",
+    },
+    {
+      title : 'Summer House',
+      img : src="https://www.w3schools.com/w3images/house5.jpg",
+    },
+    {
+      title : 'Brick House',
+      img : src="https://www.w3schools.com/w3images/house2.jpg",
+    },
+    {
+      title : 'Renovated',
+      img : src="https://www.w3schools.com/w3images/house3.jpg",
+    },
+    {
+      title : 'Barn House',
+      img : src="https://www.w3schools.com/w3images/house4.jpg",
+    }
+  ]
+
+each item in article
+  .wrapper
+    .col-phablet-1-2.col-tablet-1-3.col-laptop-1-4
+      .article
+        a(href="#")
+          .article__title=item.title
+          .article__img
+            img(src=item.img)
